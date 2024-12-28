@@ -35,7 +35,7 @@
             <h5 class="my-0 font-weight-normal">MYSQL</h5>
           </div>
           <div class="card-body">
-            <button type="button" class="btn btn-md btn-block btn-outline-info" onclick="window.open('mysql')">Access</button>
+            <button type="button" class="btn btn-md btn-block btn-outline-info" onclick="window.open('mysql/index.php')">Access</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -43,7 +43,7 @@
             <h5 class="my-0 font-weight-normal">MSSQL</h5>
           </div>
           <div class="card-body">
-            <button type="button" class="btn btn-md btn-block btn-outline-primary" onclick="window.open('mssql')">Access</button>
+            <button type="button" class="btn btn-md btn-block btn-outline-primary" onclick="window.open('mssql/index.php')">Access</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -51,7 +51,7 @@
             <h5 class="my-0 font-weight-normal">ORACLE</h5>
           </div>
           <div class="card-body">
-            <button type="button" class="btn btn-md btn-block btn-outline-danger" onclick="window.open('oracle')">Access</button>
+            <button type="button" class="btn btn-md btn-block btn-outline-danger" onclick="window.open('oracle/index.php')">Access</button>
           </div>
         </div>
       </div>

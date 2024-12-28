@@ -2,8 +2,12 @@
   include_once("../common.php");
   
   $db_conn = oracle_conn();
+    // SQL 관련 오류만 표시하도록 설정
+    error_reporting(E_ERROR | E_PARSE);
+    ini_set('display_errors', 1);
 
-  # Search Logic
+
+# Search Logic
   $search_type = $_POST["search_type"];
   $keyword = $_POST["keyword"];
 
