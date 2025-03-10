@@ -140,7 +140,7 @@
     </script>
   </body>
 </html>
-<?
+<?php
   oci_free_statement($result);
   oci_close($db_conn);
 ?>
